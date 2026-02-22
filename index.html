@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo Lista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+  <button id="themeToggle" class="theme-btn">Sötét mód</button>
+
+  <h1>ToDo Lista</h1>
+
+  <div id="filters">
+    <button data-filter="all" class="active">Mind</button>
+    <button data-filter="active">Aktív</button>
+    <button data-filter="completed">Kész</button>
+  </div>
+
+  <div class="input-row">
+    <input id="todoInput" type="text" placeholder="Írj be egy feladatot">
+    <button id="addBtn">Hozzáadás</button>
+  </div>
+
+  <ul id="todoList"></ul>
+
+  <p id="counter">Összes feladat: 0</p>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
