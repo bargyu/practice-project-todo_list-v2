@@ -191,7 +191,7 @@ themeToggle.addEventListener("click", () => {
     }
 });
 
-// INDULÁSKOR,l,l
+// INDULÁSKOR,l,lkoko
 loadTheme();
 loadTodos();
 applyFilter();
